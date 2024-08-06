@@ -27,7 +27,7 @@ action = ActionChains(driver)
 # print(slider_width)
 action.click_and_hold(Slider_Circle).move_by_offset(271, 0).release().perform()
 
-time.sleep(5)
+# time.sleep(5)
 # driver.find_element(By.XPATH,"//input[@aria-valuenow='820']")
 #
 # Slider_Box = driver.find_element(By.XPATH,"//input[@class='MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1o6z5ng']")
